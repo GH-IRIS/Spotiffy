@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Spotify Web Player Clone - Custom Vanilla CSS and Interactive JavaScript shell.">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- Google Fonts & Material Symbols -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Shell -->
+        <aside class="sidebar">
+            <!-- Navigation Card -->
+            <nav class="nav-card">
+                <a href="#" class="logo-link">
+                    <svg viewBox="0 0 24 24" class="spotify-logo-svg" fill="currentColor">
+                        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.893-.982-.336.075-.668-.135-.744-.47-.077-.337.135-.668.47-.745 3.856-.88 7.15-.5 9.822 1.137.293.18.384.564.205.853zm1.224-2.723c-.226.367-.707.487-1.074.26-2.72-1.672-6.87-2.157-10.076-1.183-.412.125-.845-.107-.97-.52-.124-.413.108-.847.52-.972 3.666-1.11 8.237-.57 11.34 1.34.368.226.488.707.26 1.075zm.106-2.833C14.39 8.8 8.44 8.603 5 9.647c-.528.16-1.09-.14-1.25-.67-.16-.526.14-1.09.668-1.25 3.96-1.202 10.536-.975 14.59 1.433.475.282.63.896.347 1.37-.28.475-.895.63-1.37.347z"/>
+                    </svg>
+                    <span class="logo-text">Spotify</span>
+                </a>
+                <a href="#" class="nav-item active" id="nav-home">
+                    <span class="material-symbols-rounded">home</span>
+                    Home
+                </a>
+                <a href="#" class="nav-item" id="nav-search">
+                    <span class="material-symbols-rounded">search</span>
+                    Search
+                </a>
+            </nav>
+
+            <!-- Library Card -->
+            <div class="library-card">
+                <div class="library-header">
+                    <button class="library-btn">
+                        <span class="material-symbols-rounded">library_music</span>
+                        Your Library
+                    </button>
+                    <button class="add-btn hover-opacity" title="Create playlist or folder">
+                        <span class="material-symbols-rounded">add</span>
+                    </button>
+                </div>
+                
+                <!-- Category Pills -->
+                <div class="pills-container">
+                    <span class="pill active">Playlists</span>
+                    <span class="pill">Artists</span>
+                    <span class="pill">Albums</span>
+                </div>
+
+                <!-- Library List (Scrollable) -->
+                <div class="library-list-wrapper">
+                    <div class="library-search-row">
+                        <span class="material-symbols-rounded search-icon">search</span>
+                        <span class="sort-by">Recents <span class="material-symbols-rounded font-size-s">list</span></span>
+                    </div>
+                    <div class="library-items" id="library-items-list">
+                        <!-- Playlists dynamic population -->
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header bar -->
+            <header class="main-header" id="main-header">
+                <div class="header-navigation">
+                    <button class="nav-arrow" disabled><span class="material-symbols-rounded">chevron_left</span></button>
+                    <button class="nav-arrow" disabled><span class="material-symbols-rounded">chevron_right</span></button>
+                </div>
+                
+                <div class="header-actions">
+                    <button class="upgrade-btn">Explore Premium</button>
+                    <a href="https://github.com" target="_blank" class="download-app-btn">
+                        <span class="material-symbols-rounded">download_for_offline</span>
+                        Install App
+                    </a>
+                    <button class="user-badge" id="user-profile-btn" title="Girish">
+                        <span class="user-avatar">G</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Main Content Container (Scrollable) -->
+            <div class="scroll-container" id="scroll-container">
+                <!-- Welcome Section -->
+                <section class="welcome-section">
+                    <h1 class="welcome-heading">Good afternoon</h1>
+                    <div class="welcome-grid" id="welcome-grid">
+                        <!-- Quick play cards -->
+                    </div>
+                </section>
+
+                <!-- Made for You Section -->
+                <section class="shelf-section">
+                    <div class="shelf-header">
+                        <h2 class="shelf-title">Made for you</h2>
+                        <a href="#" class="show-all">Show all</a>
+                    </div>
+                    <div class="card-grid" id="made-for-you-grid">
+                        <!-- Cards here -->
+                    </div>
+                </section>
+
+                <!-- Recently Played Section -->
+                <section class="shelf-section">
+                    <div class="shelf-header">
+                        <h2 class="shelf-title">Recently Played</h2>
+                        <a href="#" class="show-all">Show all</a>
+                    </div>
+                    <div class="card-grid" id="recently-played-grid">
+                        <!-- Cards here -->
+                    </div>
+                </section>
+
+                <!-- Jump Back In Section -->
+                <section class="shelf-section padding-bottom-large">
+                    <div class="shelf-header">
+                        <h2 class="shelf-title">Jump Back In</h2>
+                        <a href="#" class="show-all">Show all</a>
+                    </div>
+                    <div class="card-grid" id="jump-back-in-grid">
+                        <!-- Cards here -->
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Sticky Bottom Play Bar -->
+        <footer class="player-bar">
+            <!-- Currently Playing Info -->
+            <div class="now-playing-container">
+                <img src="" alt="Album Art" class="now-playing-art" id="current-track-art">
+                <div class="now-playing-details">
+                    <div class="track-title-wrapper">
+                        <a href="#" class="track-title" id="current-track-title">Select a track</a>
+                    </div>
+                    <a href="#" class="track-artist" id="current-track-artist">to start listening</a>
+                </div>
+                <button class="control-btn like-btn" id="player-like-btn" title="Save to Your Library">
+                    <span class="material-symbols-rounded icon-fill-none" id="like-icon">favorite</span>
+                </button>
+            </div>
+
+            <!-- Player Controls and Progress Bar -->
+            <div class="player-controls-container">
+                <div class="controls-buttons">
+                    <button class="control-btn hover-white" id="btn-shuffle" title="Enable shuffle"><span class="material-symbols-rounded">shuffle</span></button>
+                    <button class="control-btn hover-white" id="btn-prev" title="Previous"><span class="material-symbols-rounded">skip_previous</span></button>
+                    <button class="play-btn-circle" id="btn-play-pause" title="Play">
+                        <span class="material-symbols-rounded font-size-l">play_arrow</span>
+                    </button>
+                    <button class="control-btn hover-white" id="btn-next" title="Next"><span class="material-symbols-rounded">skip_next</span></button>
+                    <button class="control-btn hover-white" id="btn-repeat" title="Enable repeat"><span class="material-symbols-rounded">repeat</span></button>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <span class="time-label" id="current-time">0:00</span>
+                    <div class="slider-container" id="progress-slider-container">
+                        <div class="slider-track">
+                            <div class="slider-progress" id="player-progress"></div>
+                            <div class="slider-handle" id="player-handle"></div>
+                        </div>
+                    </div>
+                    <span class="time-label" id="total-time">3:24</span>
+                </div>
+            </div>
+
+            <!-- Volume and Utility Controls -->
+            <div class="utility-controls-container">
+                <button class="control-btn hover-white" title="Lyrics"><span class="material-symbols-rounded">mic</span></button>
+                <button class="control-btn hover-white" title="Queue"><span class="material-symbols-rounded">queue_music</span></button>
+                <button class="control-btn hover-white" title="Connect to a device"><span class="material-symbols-rounded">devices</span></button>
+                <div class="volume-control">
+                    <button class="control-btn hover-white" id="btn-mute" title="Mute"><span class="material-symbols-rounded" id="volume-icon">volume_up</span></button>
+                    <div class="slider-container width-80" id="volume-slider-container">
+                        <div class="slider-track">
+                            <div class="slider-progress" id="volume-progress" style="width: 70%;"></div>
+                            <div class="slider-handle" id="volume-handle" style="left: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="control-btn hover-white" title="Open Miniplayer"><span class="material-symbols-rounded">picture_in_picture_alt</span></button>
+                <button class="control-btn hover-white" title="Full screen"><span class="material-symbols-rounded">fullscreen</span></button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
