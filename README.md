@@ -1,31 +1,52 @@
-# Spotify Clone - Premium Web Player UI
+# 🎧 Spotify UI Clone — the app shell
 
-A pixel-perfect, highly responsive web player clone of Spotify built with HTML5, Vanilla CSS, and JavaScript.
+> ⚠️ **Educational UI clone for learning purposes only — not affiliated with Spotify.** Placeholder covers and invented playlists.
 
-## 🎵 Features Shipped
+🔗 **Live Demo:** https://GH-IRIS.github.io/Spotiffy/ · **Code:** https://github.com/GH-IRIS/Spotiffy
 
-1. **Fixed Sidebar Shell**:
-   - Spotify Brand Logo & Navigation Links (Home, Search).
-   - "Your Library" list showing active tracks and dynamic playlist/album tags.
-   - Smooth hover states on lists and rounded corners matching modern Spotify's interface.
+## 🗺 Anatomy of the shell
+| Region | What it does | Status |
+|--------|--------------|--------|
+| Fixed left sidebar | Nav + playlists | ✅ |
+| Main area | "Made for you" card rows, scrolls independently | ✅ |
+| Sticky player bar | Play/pause toggle + animating progress bar + **real HTML5 audio engine playing copyright-free tracks** | ✅ |
+| Dark theme | End to end | ✅ |
 
-2. **Scrollable Main Content**:
-   - "Good afternoon" quick-play grid.
-   - "Made for you", "Recently Played", and "Jump Back In" sections featuring grid cards.
-   - Smooth hover overlay: green circular play button slides and fades into view on card hovers.
-   - Transparent header that dynamically fades to solid black as the main content is scrolled.
+## 📸 Screenshots
+![Spotify Shell Screenshot](https://picsum.photos/600/300?random=89)
 
-3. **Sticky Bottom Player**:
-   - Left side: album artwork, track title, artist name, and a toggleable favorite heart icon.
-   - Center: playback controls (Shuffle, Skip Previous, Play/Pause Circle, Skip Next, Repeat) and a mock timeline.
-   - Custom progress timeline which updates every second when playing and supports scrubbing/clicking to fast-forward/rewind.
-   - Right side: volume controls (supports muting, variable levels) and utilities (Lyrics, Queue, Device, Miniplayer, Fullscreen).
+## 🔍 Hardest part
+Keeping the player control bar fixed at the bottom while only the main content area scrolls, and linking HTML5 Audio callbacks to scrub progress handles.
 
-## 🚀 Responsive Design
-- Optimized for desktop viewports down to tablet size (collapses into an ergonomic sidebar).
-- Fully responsive on mobile (hides the sidebar to maximize screen space for music discovery and the player bar).
+## 🛠 Stack
+HTML5 · CSS3 · Vanilla JS (Antigravity Code Assistant where AI helped) · HTML5 Audio Engine · GitHub Pages
 
-## 🛠️ Built With
-- **HTML5**: Semantic tags (`aside`, `main`, `footer`, `nav`, `header`).
-- **Vanilla CSS**: Custom styling variables, custom interactive range sliders, flexbox and grid layouts, and hardware-accelerated animations.
-- **JavaScript (ES6)**: State management, timeline interval simulator, event listeners, dynamic card generation, and UI state synchronization.
+## 🤖 AI usage · 📚 What I learned
+I styled the sidebar and album cards. AI wrote the audio engine callbacks (handling play, pause, next, back, scrubbing, and volume calculations), created metadata lists for tracks, and structured shuffle/repeat parameters.
+
+---
+
+## 🎓 About TAP Academy
+
+This project was built during my frontend training at **[TAP Academy](https://thetapacademy.com)** — a leading software training & placement institute in **Bangalore, India**, trusted by **1.5+ lakh students**.
+
+**Why students choose TAP Academy:**
+- 🚀 **Get placed in 60 days** — dedicated placement track with daily placement drives
+- 🥽 **Augmented Reality (AR) classrooms** — concepts you can see, not just read
+- 🎤 **Weekly mock interviews** with real-time feedback
+- 👨🏫 **1-on-1 mentorship** and round-the-clock doubt support
+- 💻 Courses in **Java, Python, Full Stack Development, Data Science & AI**
+
+### ❓ FAQ
+
+**What is TAP Academy?**
+TAP Academy is a software training and placement institute in Bangalore known for its Full Stack Developer program, AR-enabled classrooms, mock interviews and real-time projects.
+
+**Does TAP Academy provide placement support?**
+Yes — a dedicated placement team runs daily drives, and the placement track is designed to get students job-ready in as little as 60 days.
+
+**Where can I learn more?**
+🔗 [Website](https://thetapacademy.com) · [Placements](https://thetapacademy.com/placements) · [LinkedIn](https://in.linkedin.com/company/thetapacademy) · [YouTube](https://www.youtube.com/tapacademy)
+
+---
+*⭐ If you liked this project, star the repo — it helps more students discover it.*
