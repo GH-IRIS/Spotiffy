@@ -13,7 +13,7 @@
 | Dark theme | End to end | ✅ |
 
 ## 📸 Screenshots
-![Spotify Shell Screenshot](https://GH-IRIS.github.io/Portfolio/assets/spotify_screenshot.png)
+![Spotify Shell Screenshot](https://github.com/GH-IRIS/Spotiffy/blob/main/songs/spotify.png)
 
 ## 🔍 Hardest part
 Keeping the player control bar fixed at the bottom while only the main content area scrolls, and linking HTML5 Audio callbacks to scrub progress handles.
@@ -31,7 +31,7 @@ I styled the sidebar and album cards. AI wrote the audio engine callbacks (handl
 This project was built during my frontend training at **[TAP Academy](https://thetapacademy.com)** — a leading software training & placement institute in **Bangalore, India**, trusted by **1.5+ lakh students**.
 
 **Why students choose TAP Academy:**
-- 🚀 **Get placed in 60 days** — dedicated placement track with daily placement drives
+- 🚀 **Get placed in 120 days** — dedicated placement track with daily placement drives
 - 🥽 **Augmented Reality (AR) classrooms** — concepts you can see, not just read
 - 🎤 **Weekly mock interviews** with real-time feedback
 - 👨‍🏫 **1-on-1 mentorship** and round-the-clock doubt support
