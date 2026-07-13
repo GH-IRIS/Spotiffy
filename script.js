@@ -11,7 +11,7 @@ const tracks = [
         durationSeconds: 135,
         art: "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=300&auto=format&fit=crop&q=60",
         type: "playlist",
-        src: "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sneaky%20Snitch.mp3"
+        src: "songs/sneaky_snitch.mp3"
     },
     {
         id: "track-2",
@@ -33,7 +33,7 @@ const tracks = [
         durationSeconds: 205,
         art: "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=300&auto=format&fit=crop&q=60",
         type: "playlist",
-        src: "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3"
+        src: "songs/carefree.mp3"
     },
     {
         id: "track-4",
@@ -77,7 +77,7 @@ const tracks = [
         durationSeconds: 67,
         art: "https://images.unsplash.com/photo-1516624683217-bf02fc6b6b7c?w=300&auto=format&fit=crop&q=60",
         type: "playlist",
-        src: "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Fluffing%20a%20Duck.mp3"
+        src: "songs/fluffing_a_duck.mp3"
     },
     {
         id: "track-8",
@@ -110,7 +110,7 @@ const tracks = [
         durationSeconds: 125,
         art: "https://images.unsplash.com/photo-1540573133827-2e116694ede1?w=300&auto=format&fit=crop&q=60",
         type: "playlist",
-        src: "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Monkeys%20Spinning%20Monkeys.mp3"
+        src: "songs/monkeys_spinning_monkeys.mp3"
     },
     {
         id: "track-11",
@@ -143,7 +143,7 @@ const tracks = [
         durationSeconds: 180,
         art: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=300&auto=format&fit=crop&q=60",
         type: "album",
-        src: "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Local%20Forecast%20-%20Elevator.mp3"
+        src: "songs/elevator_music.mp3"
     },
     {
         id: "track-14",
