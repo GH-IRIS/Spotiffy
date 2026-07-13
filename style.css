@@ -871,19 +871,25 @@ button {
 @media (max-width: 768px) {
     .app-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 64px 90px; /* main, bottom nav, player bar */
+        grid-template-rows: 1fr 90px 64px; /* main, player bar (play bar), bottom nav */
         gap: 0;
         padding: 0;
     }
     
     .sidebar {
         display: flex;
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 1;
         background-color: #000000;
         border-top: 1px solid var(--border-color);
         padding: 0;
         z-index: 100;
+    }
+
+    .player-bar {
+        grid-row: 2;
+        grid-column: 1;
+        border-top: 1px solid var(--border-color);
     }
 
     .logo-link {
