@@ -160,6 +160,10 @@ button {
     font-size: 28px;
 }
 
+#nav-library {
+    display: none;
+}
+
 /* Library Card & Pills */
 .library-card {
     flex: 1;
@@ -867,11 +871,70 @@ button {
 @media (max-width: 768px) {
     .app-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 90px;
+        grid-template-rows: 1fr 64px 90px; /* main, bottom nav, player bar */
+        gap: 0;
+        padding: 0;
     }
+    
     .sidebar {
-        display: none; /* Hide sidebar on mobile/tablet */
+        display: flex;
+        grid-row: 2;
+        grid-column: 1;
+        background-color: #000000;
+        border-top: 1px solid var(--border-color);
+        padding: 0;
+        z-index: 100;
     }
+
+    .logo-link {
+        display: none;
+    }
+
+    .nav-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    #nav-library {
+        display: flex;
+    }
+
+    .nav-item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 6px 0;
+        flex: 1;
+    }
+
+    .nav-item span {
+        font-size: 22px;
+    }
+
+    .library-card {
+        display: none; /* Hide library panel on mobile, access via bottom link */
+    }
+
+    .main-content {
+        grid-row: 1;
+        grid-column: 1;
+        border-radius: 0;
+    }
+
+    .scroll-container {
+        padding: 16px 12px;
+    }
+
     .now-playing-container {
         width: 40%;
     }

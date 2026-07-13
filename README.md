@@ -2,7 +2,7 @@
 
 > ⚠️ **Educational UI clone for learning purposes only — not affiliated with Spotify.** Placeholder covers and invented playlists.
 
-🔗 **Live Demo:** https://GH-IRIS.github.io/Spotiffy/ · **Code:** https://github.com/GH-IRIS/Spotiffy
+🔗 **Live Demo:** [https://GH-IRIS.github.io/Spotiffy/](https://GH-IRIS.github.io/Spotiffy/) · **Code:** [https://github.com/GH-IRIS/Spotiffy](https://github.com/GH-IRIS/Spotiffy)
 
 ## 🗺 Anatomy of the shell
 | Region | What it does | Status |
@@ -13,7 +13,7 @@
 | Dark theme | End to end | ✅ |
 
 ## 📸 Screenshots
-![Spotify Shell Screenshot](https://picsum.photos/600/300?random=89)
+![Spotify Shell Screenshot](https://GH-IRIS.github.io/Portfolio/assets/spotify_screenshot.png)
 
 ## 🔍 Hardest part
 Keeping the player control bar fixed at the bottom while only the main content area scrolls, and linking HTML5 Audio callbacks to scrub progress handles.
@@ -34,7 +34,7 @@ This project was built during my frontend training at **[TAP Academy](https://th
 - 🚀 **Get placed in 60 days** — dedicated placement track with daily placement drives
 - 🥽 **Augmented Reality (AR) classrooms** — concepts you can see, not just read
 - 🎤 **Weekly mock interviews** with real-time feedback
-- 👨🏫 **1-on-1 mentorship** and round-the-clock doubt support
+- 👨‍🏫 **1-on-1 mentorship** and round-the-clock doubt support
 - 💻 Courses in **Java, Python, Full Stack Development, Data Science & AI**
 
 ### ❓ FAQ
