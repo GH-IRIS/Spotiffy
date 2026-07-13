@@ -1001,4 +1001,50 @@ button {
     .utility-controls-container {
         display: none; /* Hide utility block on small screens */
     }
+
+    /* Mobile Grid & Card Adjustments */
+    .welcome-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .welcome-card {
+        gap: 8px;
+    }
+
+    .welcome-card-art {
+        width: 56px;
+        height: 56px;
+    }
+
+    .welcome-card-title {
+        font-size: 12px;
+        padding-right: 8px;
+    }
+
+    .welcome-card .play-btn-float {
+        display: none; /* no hover play button on mobile */
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .music-card {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .music-card-title {
+        font-size: 13px;
+    }
+
+    .music-card-desc {
+        font-size: 11px;
+    }
+
+    .music-card .play-btn-float {
+        display: none; /* no hover play button on mobile */
+    }
 }
