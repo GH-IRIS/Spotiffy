@@ -9,7 +9,7 @@ const tracks = [
         album: "Comedy Scoring",
         duration: "2:15",
         durationSeconds: 135,
-        art: "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/sneaky_snitch.jpg",
         type: "playlist",
         src: "songs/sneaky_snitch.mp3"
     },
@@ -20,7 +20,7 @@ const tracks = [
         album: "Acoustic Vibes",
         duration: "2:26",
         durationSeconds: 146,
-        art: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/ukulele.jpg",
         type: "playlist",
         src: "https://www.bensound.com/bensound-music/bensound-ukulele.mp3"
     },
@@ -31,7 +31,7 @@ const tracks = [
         album: "Royalty Free Collection",
         duration: "3:25",
         durationSeconds: 205,
-        art: "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/carefree.jpg",
         type: "playlist",
         src: "songs/carefree.mp3"
     },
@@ -42,7 +42,7 @@ const tracks = [
         album: "Cinematic Tracks",
         duration: "2:58",
         durationSeconds: 178,
-        art: "https://images.unsplash.com/photo-1460889687777-a83421e2b9c9?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/epic.jpg",
         type: "playlist",
         src: "https://www.bensound.com/bensound-music/bensound-epic.mp3"
     },
@@ -53,7 +53,7 @@ const tracks = [
         album: "Chill Beats",
         duration: "2:12",
         durationSeconds: 132,
-        art: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/lofi_study.jpg",
         type: "playlist",
         src: "https://cdn.pixabay.com/audio/2022/05/27/audio_18084a4413.mp3"
     },
@@ -64,7 +64,7 @@ const tracks = [
         album: "Corporate",
         duration: "2:27",
         durationSeconds: 147,
-        art: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/creative_minds.jpg",
         type: "album",
         src: "https://www.bensound.com/bensound-music/bensound-creativeminds.mp3"
     },
@@ -75,7 +75,7 @@ const tracks = [
         album: "Comedy Scoring",
         duration: "1:07",
         durationSeconds: 67,
-        art: "https://images.unsplash.com/photo-1516624683217-bf02fc6b6b7c?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/fluffing_a_duck.jpg",
         type: "playlist",
         src: "songs/fluffing_a_duck.mp3"
     },
@@ -86,7 +86,7 @@ const tracks = [
         album: "Electronic Moods",
         duration: "2:34",
         durationSeconds: 154,
-        art: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/chill_abstract.jpg",
         type: "album",
         src: "https://cdn.pixabay.com/audio/2022/08/02/audio_884033b0fd.mp3"
     },
@@ -97,7 +97,7 @@ const tracks = [
         album: "Chill Vibes",
         duration: "2:20",
         durationSeconds: 140,
-        art: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/sunny.jpg",
         type: "playlist",
         src: "https://www.bensound.com/bensound-music/bensound-sunny.mp3"
     },
@@ -108,7 +108,7 @@ const tracks = [
         album: "Comedy Scoring",
         duration: "2:05",
         durationSeconds: 125,
-        art: "https://images.unsplash.com/photo-1540573133827-2e116694ede1?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/monkeys_spinning_monkeys.jpg",
         type: "playlist",
         src: "songs/monkeys_spinning_monkeys.mp3"
     },
@@ -119,7 +119,7 @@ const tracks = [
         album: "Synthwave Dreams",
         duration: "3:15",
         durationSeconds: 195,
-        art: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/cyberpunk_city.jpg",
         type: "album",
         src: "https://cdn.pixabay.com/audio/2023/10/24/audio_9855b4fb3a.mp3"
     },
@@ -130,7 +130,7 @@ const tracks = [
         album: "Acoustic Vibes",
         duration: "2:37",
         durationSeconds: 157,
-        art: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/acoustic_breeze.jpg",
         type: "playlist",
         src: "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
     },
@@ -141,7 +141,7 @@ const tracks = [
         album: "Bossa Nova",
         duration: "3:00",
         durationSeconds: 180,
-        art: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/elevator_music.jpg",
         type: "album",
         src: "songs/elevator_music.mp3"
     },
@@ -152,7 +152,7 @@ const tracks = [
         album: "Epic Backgrounds",
         duration: "2:45",
         durationSeconds: 165,
-        art: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/inspiring_cinematic.jpg",
         type: "playlist",
         src: "https://cdn.pixabay.com/audio/2022/01/26/audio_d0c5a212a9.mp3"
     },
@@ -163,7 +163,7 @@ const tracks = [
         album: "Tropical Beats",
         duration: "2:50",
         durationSeconds: 170,
-        art: "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/summer_nights.jpg",
         type: "playlist",
         src: "https://cdn.pixabay.com/audio/2022/07/25/audio_248c8a840c.mp3"
     },
@@ -174,7 +174,7 @@ const tracks = [
         album: "Urban Sounds",
         duration: "2:10",
         durationSeconds: 130,
-        art: "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=300&auto=format&fit=crop&q=60",
+        art: "songs/art/urban_hip_hop.jpg",
         type: "album",
         src: "https://cdn.pixabay.com/audio/2022/10/14/audio_34b3fdfb2b.mp3"
     }
